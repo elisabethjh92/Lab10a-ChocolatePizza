@@ -1,0 +1,9 @@
+body {
+    background-color: white;
+    color: black;
+    width: 960px;
+}
+
+.nav-bar {
+    font-family: 'Yellowtail', Open Sans;
+}
