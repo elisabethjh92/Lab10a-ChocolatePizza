@@ -1,9 +1,28 @@
 body {
     background-color: white;
     color: black;
-    width: 960px;
+    width: 100%;
+    margin-left: 50px;  
+    margin-right: 50px;
 }
 
-.nav-bar {
-    font-family: 'Yellowtail', Open Sans;
+header {
+    width: 100%;
+}
+.bar {
+    display: inline-block;
+}
+
+.delicious {
+    font-family: 'Yellowtail', cursive;
+    font-size: 26px;
+}
+
+p {
+    text-indent: 20px;
+}
+.recipe {
+    background-image: url(../images/list-bg.png);
+    background-repeat: no-repeat;
+  
 }
