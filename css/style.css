@@ -1,9 +1,8 @@
 body {
     background-color: white;
     color: black;
-    width: 100%;
-    margin-left: 10%;  
-    margin-right: 10%;
+    width: 960px;
+    margin: auto;
 }
 
 header {
@@ -11,7 +10,11 @@ header {
     float: left;
 }
 .bar {
-    display: inline-block;
+    float: left;
+}
+
+.bar:p {
+    width: 300px;
 }
 
 .delicious {
@@ -42,6 +45,24 @@ p {
     font-family: 'Patrick Hand', cursive;
 }
 
+.ingred1 {
+    float: left;
+    margin: 40px 40px 40px 40px;
+
+}
+
+.ingred2 {
+    float: right;
+}
+
 button {
     font-family: 'Abel', sans-serif;
+    background-color: rgb(207, 106, 76);
+    color: white;
+    padding: 10px 30px 10px 30px;
+    float: right;
+}
+
+footer {
+    align-content: center;
 }
